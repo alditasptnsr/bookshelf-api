@@ -1,13 +1,13 @@
 {
   "name": "submission",
   "version": "1.0.0",
-  "description": "",
+  "description": "submission learn backend with hapi",
   "main": "index.js",
   "scripts": {
     "start": "nodemon ./src/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "alditasptnsr",
   "license": "ISC",
   "dependencies": {
     "@hapi/hapi": "^20.1.2",

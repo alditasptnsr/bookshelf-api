@@ -24,6 +24,47 @@ Semua data disimpan sementara dalam memori (in-memory array), sehingga setiap re
 ## 🚀 Cara Menjalankan Proyek
 
 1. **Clone repo ini** ke lokal:
+
    ```bash
    git clone https://github.com/alditasptnsr/bookshelf-api.git
    cd bookshelf-api
+   ```
+
+2. **Install dependencies**:
+
+   ```bash
+   npm install
+   ```
+
+3. **Jalankan server**:
+
+   ```bash
+   npm run start
+   ```
+
+   Atau jika kamu ingin live reload saat develop:
+
+   ```bash
+   npx nodemon src/server.js
+   ```
+
+4. **API akan tersedia di**: `http://localhost:9000`
+
+## 📌 Endpoint Utama
+
+| Method | Endpoint      | Deskripsi                  |
+| ------ | ------------- | -------------------------- |
+| POST   | `/books`      | Tambah buku baru           |
+| GET    | `/books`      | Ambil semua buku           |
+| GET    | `/books/{id}` | Ambil detail buku tertentu |
+| PUT    | `/books/{id}` | Perbarui data buku         |
+| DELETE | `/books/{id}` | Hapus buku                 |
+
+## ✍️ Penulis
+
+Dibuat dengan semangat belajar oleh **taehyung-wife**  
+Sebagai bagian dari submission untuk kelas Dicoding: _Belajar Membuat Aplikasi Back-End untuk Pemula_.
+
+---
+
+Silakan gunakan dan modifikasi proyek ini sesuai kebutuhan pembelajaran atau eksperimen kamu.
