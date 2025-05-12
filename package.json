@@ -4,7 +4,8 @@
   "description": "submission learn backend with hapi",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./src/server.js"
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src --ext .js"
   },
   "keywords": [],
   "author": "alditasptnsr",
@@ -18,5 +19,13 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
     "nodemon": "^2.0.22"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alditasptnsr/bookshelf-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alditasptnsr/bookshelf-api/issues"
+  },
+  "homepage": "https://github.com/alditasptnsr/bookshelf-api#readme"
 }
